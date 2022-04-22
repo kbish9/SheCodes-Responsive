@@ -1,0 +1,12 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #544f4f;
+}
+.homepage-hero {
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
