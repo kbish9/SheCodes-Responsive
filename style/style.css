@@ -21,7 +21,30 @@ h1 {
 h4 {
 margin-bottom: 80px;
 }
+.img-fluid {
+    border: 2px solid var(--main-color);
+    padding: 3px;
+    border-radius: 5px;
+}
 footer {
     margin-top: 25px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    h4 {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .img-fluid {
+        margin: 10px auto;
+    }
+    footer {
+        font-size: 12px;
+        font-weight: bold;
+    }
 }
