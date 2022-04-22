@@ -1,12 +1,27 @@
+:root {
+    --main-color: #544f4f;
+}
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #544f4f;
+    color: var(--main-color);
 }
-.homepage-hero {
+.header {
+    margin-right: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.hero {
     text-align: center;
 }
 h1 {
     font-size: 100px;
     margin-top: 100px;
     margin-bottom: 35px;
+}
+h4 {
+margin-bottom: 80px;
+}
+footer {
+    margin-top: 25px;
+    text-align: center;
 }
