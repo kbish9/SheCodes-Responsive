@@ -27,18 +27,47 @@ margin-bottom: 80px;
     border-radius: 5px;
 }
 .me {
-    max-width: 500px;
+    max-width: 85%;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about {
     padding: 30px;
     font-size: 40px;
-    margin-top: 65px;
+    margin: 150px 0px;
     text-align: center;
     font-style: italic;
 }
 .info {
     padding: 50px;
     font-size: 20px;
+}
+.heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+.project {
+text-align: center;
+font-size: 18px;
+padding: 15px;
+}
+
+.button {
+    background-color: var(--main-color);
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+:hover.button {
+    color: var(--main-color);
+    background-color: whitesmoke;
+    border: 2px solid var(--main-color);
+    font-weight: bold;
+    transition: 20ms ease-in-out;
 }
 footer {
     margin-top: 25px;
@@ -59,9 +88,6 @@ footer {
         text-align: center;
     }
     .me {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         max-width: 95%;
     }
     .about {
