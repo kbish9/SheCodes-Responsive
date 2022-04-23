@@ -68,7 +68,7 @@ h4 {
   background-color: whitesmoke;
   border: 2px solid var(--main-color);
   font-weight: bold;
-  transition: 20ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 footer {
   margin-top: 25px;
@@ -78,6 +78,10 @@ footer {
 }
 .contact {
     margin: 15px;
+}
+.contact.name {
+    font-style: italic;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -136,7 +140,7 @@ footer {
       font-size: 15px;
   }
   footer {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
   }
 
